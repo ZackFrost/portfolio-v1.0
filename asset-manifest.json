@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/IanPaul/static/css/main.982dc52b.chunk.css",
-    "main.js": "/IanPaul/static/js/main.64b34a88.chunk.js",
-    "main.js.map": "/IanPaul/static/js/main.64b34a88.chunk.js.map",
+    "main.js": "/IanPaul/static/js/main.e00b2b47.chunk.js",
+    "main.js.map": "/IanPaul/static/js/main.e00b2b47.chunk.js.map",
     "runtime-main.js": "/IanPaul/static/js/runtime-main.db62ccd3.js",
     "runtime-main.js.map": "/IanPaul/static/js/runtime-main.db62ccd3.js.map",
     "static/js/2.7bb35702.chunk.js": "/IanPaul/static/js/2.7bb35702.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/adobeps.df6f75c6.svg": "/IanPaul/static/media/adobeps.df6f75c6.svg",
     "static/media/adobexd.a5b3c95b.svg": "/IanPaul/static/media/adobexd.a5b3c95b.svg",
     "static/media/android.c13c3996.svg": "/IanPaul/static/media/android.c13c3996.svg",
-    "static/media/android_studio.790a24d3.svg": "/IanPaul/static/media/android_studio.790a24d3.svg",
+    "static/media/android_studio.554010a1.png": "/IanPaul/static/media/android_studio.554010a1.png",
     "static/media/arrow.0c0559b5.svg": "/IanPaul/static/media/arrow.0c0559b5.svg",
     "static/media/css.212d777a.svg": "/IanPaul/static/media/css.212d777a.svg",
     "static/media/development.5ba63794.png": "/IanPaul/static/media/development.5ba63794.png",
@@ -21,9 +21,8 @@
     "static/media/facebook.71296914.svg": "/IanPaul/static/media/facebook.71296914.svg",
     "static/media/flutter.c7660c66.svg": "/IanPaul/static/media/flutter.c7660c66.svg",
     "static/media/github.fa0212fe.svg": "/IanPaul/static/media/github.fa0212fe.svg",
-    "static/media/html.a577af37.svg": "/IanPaul/static/media/html.a577af37.svg",
+    "static/media/html.216e2ec2.png": "/IanPaul/static/media/html.216e2ec2.png",
     "static/media/instagram.02967a62.svg": "/IanPaul/static/media/instagram.02967a62.svg",
-    "static/media/javascript.ca691704.svg": "/IanPaul/static/media/javascript.ca691704.svg",
     "static/media/linkedin.5c83b128.svg": "/IanPaul/static/media/linkedin.5c83b128.svg",
     "static/media/mobile.b722cb02.svg": "/IanPaul/static/media/mobile.b722cb02.svg",
     "static/media/mongodb.1aca075d.svg": "/IanPaul/static/media/mongodb.1aca075d.svg",
@@ -38,6 +37,6 @@
     "static/js/runtime-main.db62ccd3.js",
     "static/js/2.7bb35702.chunk.js",
     "static/css/main.982dc52b.chunk.css",
-    "static/js/main.64b34a88.chunk.js"
+    "static/js/main.e00b2b47.chunk.js"
   ]
 }
