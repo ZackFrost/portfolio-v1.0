@@ -1,4 +1,4 @@
-import android from "../assets/icons/technologies/android_studio.svg";
+import android from "../assets/icons/technologies/androidstudio.svg";
 import css from "../assets/icons/technologies/css.svg";
 import flutter from "../assets/icons/technologies/flutter.svg";
 import html from "../assets/icons/technologies/html.svg";
@@ -7,8 +7,8 @@ import mongoDB from "../assets/icons/technologies/mongodb.svg";
 import nodeJS from "../assets/icons/technologies/nodejs.png";
 import reactJS from "../assets/icons/technologies/reactjs.svg";
 import selenium from "../assets/icons/technologies/selenium.svg";
-import adobeXD from "../assets/icons/technologies/adobe_xd.svg";
-import adobePS from "../assets/icons/technologies/adobe_ps.svg";
+import adobeXD from "../assets/icons/technologies/adobexd.svg";
+import adobePS from "../assets/icons/technologies/adobeps.svg";
 
 let technologiesMap = [
   { name: "Flutter", path: flutter },

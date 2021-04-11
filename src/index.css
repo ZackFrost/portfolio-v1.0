@@ -17,13 +17,3 @@ code {
   background-color: rgb(255, 255, 255);
   width: 100%;
 }
-
-#footer {
-  background-color:  #faf9f7;
-}
-
-
-#custom_gradient_button{
-  background-image: linear-gradient(to bottom right, red, yellow);
-}
-

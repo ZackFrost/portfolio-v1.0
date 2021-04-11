@@ -11,7 +11,7 @@ const ProjectSectionCard = ({ title, description, image , platform}) => {
   return (
     
     <div className="card shadow-lg" style={{
-      boxShadow:`5px 5px 15px ${BACKGROUND_COLOR}`, margin:"0px 10px 80px 0px", border:"0px"}}>
+      boxShadow:`5px 5px 15px ${BACKGROUND_COLOR}`, border:"0px", marginBottom:"60px"}}>
       <img src={image} className="card-img-top" alt="..." />
       <div className="card-body" style={{marginTop:"5px", padding:"20px"}}>
         <h5 style={{fontWeight:"600"}}>{title}</h5>

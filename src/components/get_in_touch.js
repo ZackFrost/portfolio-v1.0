@@ -6,8 +6,8 @@ const GetInTouch = () => {
 
   return (
     <div style={{ backgroundColor: "white" }}>
-      <div className="container">
-        <div className="row" style={{ padding: "130px 0px", margin:"0px" }}>
+      <div className="container text-center" >
+        <div className="row" style={{ padding: "120px 0px", margin:"0px" }}>
           <div className="col-lg-6 pt-5">
             <h1
               style={{

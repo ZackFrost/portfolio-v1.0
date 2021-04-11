@@ -17,7 +17,7 @@ const Services = () => {
           Services
         </h1>
         {servicesMap.map((service, index) => (
-          <div key={index} className="col-lg-4 col-sm-6">
+          <div key={index} className="col-lg-4 col-sm-6" style={{padding:"0px 20px"}}>
             <ServiceSectionCard
               title={service.title}
               description={service.descritpion}
