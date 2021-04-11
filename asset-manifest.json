@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/IanPaul/static/css/main.982dc52b.chunk.css",
-    "main.js": "/IanPaul/static/js/main.32037c51.chunk.js",
-    "main.js.map": "/IanPaul/static/js/main.32037c51.chunk.js.map",
+    "main.css": "/IanPaul/static/css/main.2a438141.chunk.css",
+    "main.js": "/IanPaul/static/js/main.a3d5720f.chunk.js",
+    "main.js.map": "/IanPaul/static/js/main.a3d5720f.chunk.js.map",
     "runtime-main.js": "/IanPaul/static/js/runtime-main.db62ccd3.js",
     "runtime-main.js.map": "/IanPaul/static/js/runtime-main.db62ccd3.js.map",
     "static/js/2.7bb35702.chunk.js": "/IanPaul/static/js/2.7bb35702.chunk.js",
     "static/js/2.7bb35702.chunk.js.map": "/IanPaul/static/js/2.7bb35702.chunk.js.map",
     "index.html": "/IanPaul/index.html",
-    "static/css/main.982dc52b.chunk.css.map": "/IanPaul/static/css/main.982dc52b.chunk.css.map",
+    "static/css/main.2a438141.chunk.css.map": "/IanPaul/static/css/main.2a438141.chunk.css.map",
     "static/js/2.7bb35702.chunk.js.LICENSE.txt": "/IanPaul/static/js/2.7bb35702.chunk.js.LICENSE.txt",
     "static/media/adobeps.d9ddfe4c.png": "/IanPaul/static/media/adobeps.d9ddfe4c.png",
     "static/media/adobexd.2c8fee73.png": "/IanPaul/static/media/adobexd.2c8fee73.png",
@@ -22,12 +22,13 @@
     "static/media/flutter.c7660c66.svg": "/IanPaul/static/media/flutter.c7660c66.svg",
     "static/media/github.fa0212fe.svg": "/IanPaul/static/media/github.fa0212fe.svg",
     "static/media/html.216e2ec2.png": "/IanPaul/static/media/html.216e2ec2.png",
+    "static/media/ian.222e1b24.png": "/IanPaul/static/media/ian.222e1b24.png",
+    "static/media/inspire.ad0b4d0c.png": "/IanPaul/static/media/inspire.ad0b4d0c.png",
     "static/media/instagram.02967a62.svg": "/IanPaul/static/media/instagram.02967a62.svg",
     "static/media/linkedin.5c83b128.svg": "/IanPaul/static/media/linkedin.5c83b128.svg",
     "static/media/mobile.b722cb02.svg": "/IanPaul/static/media/mobile.b722cb02.svg",
     "static/media/mongodb.1aca075d.svg": "/IanPaul/static/media/mongodb.1aca075d.svg",
     "static/media/nodejs.527d385f.png": "/IanPaul/static/media/nodejs.527d385f.png",
-    "static/media/paul.7a56b29e.png": "/IanPaul/static/media/paul.7a56b29e.png",
     "static/media/reactjs.ee97676b.svg": "/IanPaul/static/media/reactjs.ee97676b.svg",
     "static/media/selenium.a00407a2.svg": "/IanPaul/static/media/selenium.a00407a2.svg",
     "static/media/website.7f7697d6.svg": "/IanPaul/static/media/website.7f7697d6.svg",
@@ -36,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.db62ccd3.js",
     "static/js/2.7bb35702.chunk.js",
-    "static/css/main.982dc52b.chunk.css",
-    "static/js/main.32037c51.chunk.js"
+    "static/css/main.2a438141.chunk.css",
+    "static/js/main.a3d5720f.chunk.js"
   ]
 }
