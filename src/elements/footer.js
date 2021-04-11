@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div id="footer">
       <div className="container" style={{ padding: "30px 0px 10px 0px" }}>
-        <div className="row">
+        <div className="row p-2">
           <div className="col-6" >
             <h3 id="logo">IP</h3>
           </div>

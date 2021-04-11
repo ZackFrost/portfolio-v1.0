@@ -16,6 +16,48 @@ let projectsMap = [
     image: EncryptChat,
     platforms: ["android", "web"],
   },
+  {
+    title: "Inspire",
+    descritpion:
+      "Want to turn your idea into an Hybrid app(Android, iOS & Web), ",
+    image: EncryptChat,
+    platforms: ["android", "web", "ios"],
+  },
+  {
+    title: "Encrypt Chat",
+    descritpion:
+      "Want to turn your idea into an Hybrid app(Android, iOS & Web), ",
+    image: EncryptChat,
+    platforms: ["android", "web"],
+  },
+  {
+    title: "Inspire",
+    descritpion:
+      "Want to turn your idea into an Hybrid app(Android, iOS & Web), ",
+    image: EncryptChat,
+    platforms: ["android", "web", "ios"],
+  },
+  {
+    title: "Encrypt Chat",
+    descritpion:
+      "Want to turn your idea into an Hybrid app(Android, iOS & Web), ",
+    image: EncryptChat,
+    platforms: ["android", "web"],
+  },
+  {
+    title: "Inspire",
+    descritpion:
+      "Want to turn your idea into an Hybrid app(Android, iOS & Web), ",
+    image: EncryptChat,
+    platforms: ["android", "web", "ios"],
+  },
+  {
+    title: "Encrypt Chat",
+    descritpion:
+      "Want to turn your idea into an Hybrid app(Android, iOS & Web), ",
+    image: EncryptChat,
+    platforms: ["android", "web"],
+  },
   
 ];
 

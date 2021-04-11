@@ -21,7 +21,7 @@ const Skills = () => {
         </div>
         <div className="row">
           {technologiesMap.map((icon, index) => (
-            <div key={index} style={{ marginBottom: "80px" }} className="col-2">
+            <div key={index} style={{ marginBottom: "80px" }} className="col-xl-2 col-sm-3 col-6">
               <IconTitleWidget path={icon.path} title={icon.name} />
             </div>
           ))}

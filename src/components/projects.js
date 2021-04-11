@@ -29,7 +29,7 @@ const Projects = () => {
 
           <div className="row">
             {projectsMap.map((service, index) => (
-              <div key={index} className="col-3">
+              <div key={index} className="col-lg-3 col-md-4 col-sm-6">
                 <ProjectSectionCard
                   platform={service.platforms}
                   title={service.title}

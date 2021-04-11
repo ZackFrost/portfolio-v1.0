@@ -15,7 +15,7 @@ const Header = () => {
           <h1 id="logo">IP</h1>
         </div>
         <div className="row">
-          <div className="col-6">
+          <div className="col-lg-6">
             <div
               className="row"
               style={{ color: "#989898", paddingTop: "25%" }}
@@ -37,9 +37,9 @@ const Header = () => {
               'lorem ipsum' will uncover many web sites still in their infancy.
             </div>
           </div>
-          <div className="col-6">
-            <img src={UserImage} height="560" width="415" />
-            <CustomCardWidget
+          <div className="col-lg-6">
+            <img src={UserImage} width="100%" className="pt-5" />
+            {/* <CustomCardWidget
             borderRadius={25}
             border="1px solid white"
             widget={
@@ -75,7 +75,7 @@ const Header = () => {
                 </button>
               </div>
             }
-          />
+          /> */}
           </div>
           
         </div>

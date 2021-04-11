@@ -7,22 +7,20 @@ const GetInTouch = () => {
   return (
     <div style={{ backgroundColor: "white" }}>
       <div className="container">
-        <div className="row" style={{ padding: "130px 0px 130px 0px" }}>
-          <div className="col-6">
-            
+        <div className="row" style={{ padding: "130px 0px", margin:"0px" }}>
+          <div className="col-lg-6 pt-5">
             <h1
               style={{
-                fontSize: "50px",
+                fontSize: "40px",
                 fontWeight: "700",
                 color: DARk_GREY_COLOR,
-                paddingTop: "25%",
               }}
             >
               Turn Your Idea's
             </h1>
             <h3
               style={{
-                fontSize: "40px",
+                fontSize: "32px",
                 fontWeight: "700",
                 color: LIGHT_GREY_COLOR,
               }}
@@ -33,8 +31,8 @@ const GetInTouch = () => {
             <button
               className="btn"
               style={{
-                padding: "22px",
-                marginTop: "50px",
+                padding: "20px",
+                margin: "35px 0px",
                 backgroundImage: "linear-gradient(to right, #1F85B2, #69AF74)",
                 fontSize: "17px",
                 width: "65%",
@@ -50,8 +48,8 @@ const GetInTouch = () => {
               Get In Touch
             </button>
           </div>
-          <div className="col-6">
-            <img src={DeveloperImage} height="500" alt="Not Found" />
+          <div className="col-lg-6">
+            <img src={DeveloperImage} width="100%" alt="Not Found" style={{margin:"0px", padding:"0px"}}/>
           </div>
         </div>
       </div>
