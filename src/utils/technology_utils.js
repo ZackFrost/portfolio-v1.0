@@ -7,8 +7,8 @@ import mongoDB from "../assets/icons/technologies/mongodb.svg";
 import nodeJS from "../assets/icons/technologies/nodejs.png";
 import reactJS from "../assets/icons/technologies/reactjs.svg";
 import selenium from "../assets/icons/technologies/selenium.svg";
-import adobeXD from "../assets/icons/technologies/adobexd.svg";
-import adobePS from "../assets/icons/technologies/adobeps.svg";
+import adobeXD from "../assets/icons/technologies/adobexd.png";
+import adobePS from "../assets/icons/technologies/adobeps.png";
 
 let technologiesMap = [
   { name: "Flutter", path: flutter },
