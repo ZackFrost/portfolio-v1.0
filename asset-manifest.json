@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/IanPaul/static/css/main.982dc52b.chunk.css",
-    "main.js": "/IanPaul/static/js/main.40c5b9da.chunk.js",
-    "main.js.map": "/IanPaul/static/js/main.40c5b9da.chunk.js.map",
+    "main.js": "/IanPaul/static/js/main.64b34a88.chunk.js",
+    "main.js.map": "/IanPaul/static/js/main.64b34a88.chunk.js.map",
     "runtime-main.js": "/IanPaul/static/js/runtime-main.db62ccd3.js",
     "runtime-main.js.map": "/IanPaul/static/js/runtime-main.db62ccd3.js.map",
     "static/js/2.7bb35702.chunk.js": "/IanPaul/static/js/2.7bb35702.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/adobeps.df6f75c6.svg": "/IanPaul/static/media/adobeps.df6f75c6.svg",
     "static/media/adobexd.a5b3c95b.svg": "/IanPaul/static/media/adobexd.a5b3c95b.svg",
     "static/media/android.c13c3996.svg": "/IanPaul/static/media/android.c13c3996.svg",
-    "static/media/androidstudio.4a303e87.svg": "/IanPaul/static/media/androidstudio.4a303e87.svg",
+    "static/media/android_studio.790a24d3.svg": "/IanPaul/static/media/android_studio.790a24d3.svg",
     "static/media/arrow.0c0559b5.svg": "/IanPaul/static/media/arrow.0c0559b5.svg",
     "static/media/css.212d777a.svg": "/IanPaul/static/media/css.212d777a.svg",
     "static/media/development.5ba63794.png": "/IanPaul/static/media/development.5ba63794.png",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.db62ccd3.js",
     "static/js/2.7bb35702.chunk.js",
     "static/css/main.982dc52b.chunk.css",
-    "static/js/main.40c5b9da.chunk.js"
+    "static/js/main.64b34a88.chunk.js"
   ]
 }
