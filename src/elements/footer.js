@@ -5,6 +5,7 @@ import "../index.css";
 import { LIGHT_GREY_COLOR, DARk_GREY_COLOR } from "../utils/color_utils";
 
 const Footer = () => {
+  
   return (
     <div id="footer" className="bg-dark">
       <div className="container">
