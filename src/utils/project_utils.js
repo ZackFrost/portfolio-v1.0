@@ -1,62 +1,35 @@
 import EncryptChat from "../assets/images/encrypt-chat.jpg";
+import Inspire from "../assets/images/inspire.png";
 
 
 let projectsMap = [
   {
-    title: "Inspire",
-    descritpion:
-      "Want to turn your idea into an Hybrid app(Android, iOS & Web), ",
-    image: EncryptChat,
-    platforms: ["android", "web", "ios"],
-  },
-  {
     title: "Encrypt Chat",
     descritpion:
       "Want to turn your idea into an Hybrid app(Android, iOS & Web), ",
     image: EncryptChat,
-    platforms: ["android", "web"],
+    platforms: ["android"],
   },
   {
     title: "Inspire",
     descritpion:
       "Want to turn your idea into an Hybrid app(Android, iOS & Web), ",
-    image: EncryptChat,
-    platforms: ["android", "web", "ios"],
+    image: Inspire,
+    platforms: ["android"],
   },
   {
-    title: "Encrypt Chat",
+    title: "Deadly Timer",
     descritpion:
       "Want to turn your idea into an Hybrid app(Android, iOS & Web), ",
     image: EncryptChat,
-    platforms: ["android", "web"],
+    platforms: ["android", "ios"],
   },
   {
-    title: "Inspire",
+    title: "Mivacation Tours",
     descritpion:
       "Want to turn your idea into an Hybrid app(Android, iOS & Web), ",
     image: EncryptChat,
-    platforms: ["android", "web", "ios"],
-  },
-  {
-    title: "Encrypt Chat",
-    descritpion:
-      "Want to turn your idea into an Hybrid app(Android, iOS & Web), ",
-    image: EncryptChat,
-    platforms: ["android", "web"],
-  },
-  {
-    title: "Inspire",
-    descritpion:
-      "Want to turn your idea into an Hybrid app(Android, iOS & Web), ",
-    image: EncryptChat,
-    platforms: ["android", "web", "ios"],
-  },
-  {
-    title: "Encrypt Chat",
-    descritpion:
-      "Want to turn your idea into an Hybrid app(Android, iOS & Web), ",
-    image: EncryptChat,
-    platforms: ["android", "web"],
+    platforms: ["web"],
   },
   
 ];

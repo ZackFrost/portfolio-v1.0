@@ -15,11 +15,9 @@ const CustomCardWidget = ({
         color: color,
         borderRadius: borderRadius,
         height: !customHeight ? 100 : customHeight,
-        width: !customWidth ? 650 : customWidth,
         border: border,
         zIndex: 2,
         position: "absolute",
-        left: "40%"
       }}
     >
       <div className="card-body ">{widget}</div>

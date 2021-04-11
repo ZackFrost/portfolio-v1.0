@@ -5,7 +5,7 @@ import Header from "../elements/header";
 import { BACKGROUND_COLOR } from "../utils/color_utils";
 
 const HomePage = () => {
-  return (<div style={{backgroundColor: BACKGROUND_COLOR}}>
+  return (<div style={{backgroundColor: BACKGROUND_COLOR}} >
     <Header/>
     <Body/>
     <Footer/>

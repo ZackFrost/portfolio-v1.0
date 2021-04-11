@@ -17,3 +17,17 @@ code {
   background-color: rgb(255, 255, 255);
   width: 100%;
 }
+
+@media screen and (max-width: 575px) and (min-width: 600px) {
+  
+}
+
+.home_banner_area {
+  background: url(https://preview.colorlib.com/theme/breed2/img/banner/home-banner.png) no-repeat top center;
+      background-position-x: center;
+      background-position-y: top;
+      background-size: auto;
+  background-position: center;
+  background-size: cover;
+  min-height: 890px;
+}

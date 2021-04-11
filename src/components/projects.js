@@ -26,9 +26,9 @@ const Projects = () => {
             }}>Projects</h1>
             <h5 style={{fontSize:"15px"}}>Personal & Freelance</h5>
           </div>
-
-            {projectsMap.map((service, index) => (
-              <div key={index} className="col-lg-3 col-md-4 col-sm-6" style={{padding:"0px 20px"}}>
+          <div className="row">
+          {projectsMap.map((service, index) => (
+              <div key={index} className="col-lg-3 col-md-4 col-sm-6"  style={{padding:"0px 30px"}}>
                 <ProjectSectionCard
                   platform={service.platforms}
                   title={service.title}
@@ -37,6 +37,8 @@ const Projects = () => {
                 />
               </div>
             ))}
+          </div>
+            
         </div>
       </div>
     </div>
