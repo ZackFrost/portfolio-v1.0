@@ -17,7 +17,7 @@ const CustomCardWidget = ({
         height: !customHeight ? 100 : customHeight,
         border: border,
         zIndex: 2,
-        position: "absolute",
+        position: "relative",
       }}
     >
       <div className="card-body ">{widget}</div>

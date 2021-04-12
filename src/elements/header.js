@@ -53,19 +53,18 @@ const Header = () => {
               border="1px solid white"
               widget={
                 <div className="row">
-                  <div className="col" style={{  }}>
+                  <div className="col">
                     {socialMediaIcons.map((icons, index) => {
                       return (
                         <img
                           key={index}
                           src={icons.path}
-                          style={{ margin: "0px 25px" }}
                           height={35}
-                          width={35}
+                          width="20%"
                         />
                       );
                     })}
-                  </div>
+                    </div>
                   {/* <button
                     className="btn"
                     style={{
