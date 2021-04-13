@@ -1,10 +1,12 @@
 import React from "react";
 import { servicesMap } from "../utils/service_utils";
 import ServiceSectionCard from "./service_section_card";
+import { BACKGROUND_COLOR } from "../utils/color_utils";
 
 const Services = () => {
   return (
-    <div id="services_section" className="container">
+    <section style={{backgroundColor:BACKGROUND_COLOR}}>
+      <div id="services_section" className="container">
       <div className="row" style={{padding: "100px 0px 150px 0px"}}>
         <h1
           style={{
@@ -27,6 +29,7 @@ const Services = () => {
         ))}
       </div>
     </div>
+    </section>
   );
 };
 

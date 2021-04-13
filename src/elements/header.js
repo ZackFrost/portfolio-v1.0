@@ -7,27 +7,44 @@ import { LIGHT_GREY_COLOR } from "../utils/color_utils";
 
 const Header = () => {
   return (
-    <div>
-      <div
-        id="header"
-        className="container"
-        style={{ backgroundColor: "#faf9f7" }}
-      >
-        <div className="row">
+    <div style={{ padding: "0px 15px" }}>
+      <div className="container">
+        <section className="row">
           <h1 id="logo">IP</h1>
-        </div>
-        <div className="row" style={{margin:"0px", padding:"0px"}}>
-          <div className="col-lg-6" >
+          <div className="col-lg-6">
             <span
               className="row"
-              style={{ color: "#989898", paddingTop: "30%" }}
+              style={{
+                color: "#7b7992",
+                marginBottom: "15px",
+                display: "block",
+                fontWeight: "500",
+                paddingTop: "40%",
+              }}
             >
-              Flutter Developer
+             
             </span>
-            <span className="row" style={{ fontWeight: 700, fontSize: 32 }}>
+            <span
+              className="row"
+              style={{
+                fontSize: "32px",
+                fontWeight: "700",
+                color: "#0d0925",
+                marginBottom: "20px",
+              }}
+            >
               Ian Paul
             </span>
-            <span className="row" style={{ color: "#bdb9bb", fontSize: "17px" }}>
+            <span
+              className="row"
+              style={{
+                fontSize: "17px",
+                textAlign: "justify",
+                color: "#bdb9bb",
+                marginBottom: "30px",
+                lineHeight: "1.5em",
+              }}
+            >
               I'm a software engineer and a part-time freelancer building mobile
               and web applications. It is a long established fact that a reader
               will be distracted by the readable content of a page when looking
@@ -37,7 +54,10 @@ const Header = () => {
               English.
             </span>
           </div>
-          <div className="col-lg-6 d-none d-sm-block" style={{ paddingTop: "7%" }}>
+          <div
+            className="col-lg-6 d-none d-sm-block"
+            style={{ paddingTop: "7%" }}
+          >
             <img
               src={UserImage}
               width="60%"
@@ -64,7 +84,7 @@ const Header = () => {
                         />
                       );
                     })}
-                    </div>
+                  </div>
                   {/* <button
                     className="btn"
                     style={{
@@ -84,15 +104,11 @@ const Header = () => {
                 </div>
               }
             />
-
-
           </div>
-        </div>
+        </section>
       </div>
     </div>
   );
 };
-
-
 
 export default Header;

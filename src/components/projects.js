@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div
       id="projects_section"
-      style={{ backgroundImage: CUSTOM_GRADIENT_COLOR , padding:"80px 0px 80px 0px"}}
+      style={{ backgroundColor: "white" , padding:"80px 0px 80px 0px"}}
     >
       <div className="container">
         <div className="row">
@@ -29,15 +29,17 @@ const Projects = () => {
           <div className="row">
           {projectsMap.map((service, index) => (
               <div key={index} className="col-lg-3 col-md-4 col-sm-6"  style={{padding:"0px 30px"}}>
-                <ProjectSectionCard
+                
+                {/* <ProjectSectionCard
                   platform={service.platforms}
                   title={service.title}
                   description={service.descritpion}
                   image={service.image}
-                />
+                /> */}
               </div>
             ))}
           </div>
+         
             
         </div>
       </div>

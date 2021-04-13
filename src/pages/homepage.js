@@ -3,11 +3,15 @@ import Body from "../elements/body";
 import Footer from "../elements/footer";
 import Header from "../elements/header";
 import { BACKGROUND_COLOR } from "../utils/color_utils";
+import CustomProjectCard from "../components/custom_project_card";
 
 const HomePage = () => {
-  return (<div style={{backgroundColor: BACKGROUND_COLOR}} >
+  return (<div >
     <Header/>
     <Body/>
+    
+
+<CustomProjectCard/>
     <Footer/>
   </div>);
 };
