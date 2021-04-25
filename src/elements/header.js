@@ -1,113 +1,115 @@
 import React from "react";
 import "../index.css";
-import UserImage from "../assets/images/ian.png";
-import CustomCardWidget from "../components/custom_card_widget";
+import HeaderBG from "../assets/images/header-bg.jpg";
 import { socialMediaIcons } from "../utils/social_utils";
-import { LIGHT_GREY_COLOR } from "../utils/color_utils";
+import {
+  DESCRIPTION_COLOR,
+  LABEL_COLOR,
+  LIGHT_GREY_COLOR,
+} from "../utils/color_utils";
+import { MaterialButton } from "../components/material_button";
 
 const Header = () => {
+  const styles = {
+    logo: {
+      color: "#fff",
+    },
+    header: {
+      backgroundImage: `url(${HeaderBG})`,
+      height: "650px",
+      backgroundPosition: "bottom",
+      backgroundRepeat: "no-repeat",
+      backgroundSize: "cover",
+    },
+    content: {
+      height: "100%",
+      width: "100%",
+      backgroundColor: "rgba(0, 0, 0, 0.7)",
+    },
+    label: {
+      color: LABEL_COLOR,
+      color: "rgb(0, 68, 131)",
+    },
+    headerTitle: {
+      color: "white",
+      fontWeight: 700,
+      fontSize: 50,
+      padding: "10px 0px 15px 0px",
+    },
+    headerDescription: {
+      color: DESCRIPTION_COLOR,
+      fontSize: "17px",
+      textAlign: "justify",
+    },
+    heroBody: {
+      paddingTop: "18%",
+    },
+    sectionContact: {
+      padding: "25px 10px",
+    },
+  };
+
   return (
-    <div style={{ padding: "0px 15px" }}>
-      <div className="container">
-        <section className="row">
-          <h1 id="logo">IP</h1>
-          <div className="col-lg-6">
-            <span
-              className="row"
-              style={{
-                color: "#7b7992",
-                marginBottom: "15px",
-                display: "block",
-                fontWeight: "500",
-                paddingTop: "40%",
-              }}
-            >
-             
-            </span>
-            <span
-              className="row"
-              style={{
-                fontSize: "32px",
-                fontWeight: "700",
-                color: "#0d0925",
-                marginBottom: "20px",
-              }}
-            >
-              Ian Paul
-            </span>
-            <span
-              className="row"
-              style={{
-                fontSize: "17px",
-                textAlign: "justify",
-                color: "#bdb9bb",
-                marginBottom: "30px",
-                lineHeight: "1.5em",
-              }}
-            >
-              I'm a software engineer and a part-time freelancer building mobile
-              and web applications. It is a long established fact that a reader
-              will be distracted by the readable content of a page when looking
-              at its layout. The point of using Lorem Ipsum is that it has a
-              more-or-less normal distribution of letters, as opposed to using
-              'Content here, content here', making it look like readable
-              English.
-            </span>
-          </div>
-          <div
-            className="col-lg-6 d-none d-sm-block"
-            style={{ paddingTop: "7%" }}
-          >
-            <img
-              src={UserImage}
-              width="60%"
-              style={{
-                display: "block",
-                marginLeft: "auto",
-                marginRight: "auto",
-                // boxShadow: "0px 10px 20px #5CE3C9",
-              }}
-            />
-            <CustomCardWidget
-              borderRadius={25}
-              border="1px solid white"
-              widget={
-                <div className="row">
-                  <div className="col">
+    <header id="main-header" style={styles.header}>
+      <section id="bg-overlay" style={styles.content}>
+        <section id="header-content">
+          <section id="container" className="container">
+            {/* <section id="logo">
+              <h4 style={styles.logo}>IP</h4>
+            </section> */}
+            <section id="hero-section">
+              <section id="hero-body" style={styles.heroBody} className="col-9">
+                {/* <h5 style={styles.label}>Flutter Developer</h5> */}
+                <section style={styles.headerTitle}>Ian Paul</section>
+                <p style={styles.headerDescription}>
+                  I'm a software engineer and a part-time freelancer building
+                  mobile and web applications. Develop highly interactive Front
+                  end / User Interfaces for your web and mobile applications
+                </p>
+              </section>
+              <section id="section-contact">
+                <section id="social-links">
+                  <ul style={{ padding: "10px 0px" }}>
                     {socialMediaIcons.map((icons, index) => {
                       return (
-                        <img
+                        <li
+                          style={{ marginRight: "1.0rem" }}
                           key={index}
-                          src={icons.path}
-                          height={35}
-                          width="20%"
-                        />
+                          className="social-media-icon"
+                        >
+                          <img src={icons.path} height="16" width="16" />
+                        </li>
                       );
                     })}
-                  </div>
-                  {/* <button
-                    className="btn"
-                    style={{
-                      width: "20%",
-                      padding: "13px",
-                      backgroundImage:
-                        "linear-gradient(to bottom right, #1F85B2, #69AF74)",
-                      fontSize: "12px",
-                      color: "white",
-                      fontWeight: "600",
-                      borderRadius: "20px",
-                      boxShadow: "3px 3px 8px #5CE3C9",
-                    }}
-                  >
-                    Resume
-                  </button> */}
-                </div>
-              }
-            />
-          </div>
+                  </ul>
+                </section>
+                <section
+                  id="section-cta"
+                  className="row"
+                  style={styles.sectionContact}
+                >
+                  <MaterialButton
+                    name="CONTACT ME"
+                    onTap={() => console.log("yuhuui")}
+                    // boxShadow={`4px 4px 18px 1px ${LIGHT_GREY_COLOR}`}
+                    customCss="gradient-btn-1"
+                    textColor="#fff"
+                    marginRight="2rem"
+                  />
+                  <MaterialButton
+                    name="RESUME"
+                    onTap={() => console.log("yellow")}
+                    boxShadow={`4px 4px 18px 1px ${LIGHT_GREY_COLOR}`}
+                    textColor="#000"
+                    backgroundColor="white"
+                  />
+                </section>
+              </section>
+            </section>
+          </section>
         </section>
-      </div>
-    </div>
+      </section>
+    </header>
   );
 };
 

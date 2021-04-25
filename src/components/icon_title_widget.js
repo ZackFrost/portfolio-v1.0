@@ -1,16 +1,36 @@
 import React from "react";
+import { DESCRIPTION_COLOR, LIGHT_GREY_COLOR, SECTION_TITLE_COLOR } from "../utils/color_utils";
 
 const IconTitleWidget = ({ path, title, isShowTitle = true }) => {
+
+  const styles= {
+    container:{
+      marginBottom:"40px",
+      display:"block",
+    },
+    title:{
+      fontSize: "12px",
+      color: DESCRIPTION_COLOR,
+      fontWeight: 500,
+      textAlign:"center",
+      marginTop:"13px"
+    },
+    image:{
+      display:"block",
+      margin:"0px auto"
+    }
+  }
+
   return (
-    <div id="iconTitle">
-      <div className="row">
-        <div id="icon" style={{ textAlign: "center", paddingBottom: "30px" }}>
-          <img src={path} height="60" width="60" />
-        </div>
+    <div id="iconTitle" style={styles.container}>
+      <div className="row" style={{}}>
+        <image id="icon">
+          <img src={path} alt="not found" height="53" width="53"  style={styles.image} />
+        </image>
         {isShowTitle && (
-          <div id="iconTitle" style={{ color: "white", textAlign: "center", fontWeight:700}}>
+          <section id="iconTitle" style={styles.title}>
             {title}
-          </div>
+          </section>
         )}
       </div>
     </div>

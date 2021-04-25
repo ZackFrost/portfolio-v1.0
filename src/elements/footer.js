@@ -1,28 +1,24 @@
 import React from "react";
 import { ScrollTo } from "../components/scrollTo_widget";
 import "../index.css";
-// import { socialMediaIcons } from "../utils/social_utils";
-import { LIGHT_GREY_COLOR, DARk_GREY_COLOR } from "../utils/color_utils";
+import { socialMediaIcons } from "../utils/social_utils";
+import { LIGHT_GREY_COLOR, DARk_GREY_COLOR, LIGHT_BACKGROUND_COLOR } from "../utils/color_utils";
 
 const Footer = () => {
-  
   return (
-    <div id="footer" className="bg-dark">
-      <div className="container">
-        <div className="row" style={{ padding: "20px 0px 10px 0px" }}>
-          <div
-            className="col-sm-11"
-            style={{
-              color: DARk_GREY_COLOR,
-              textAlign: "center",
-              fontSize: "14px",
-            
-            }}
-          >
-            &copy; Ian Paul 2016-2021
+    <div id="footer" style={{backgroundColor:LIGHT_BACKGROUND_COLOR }}>
+      <div className="container" style={{ padding: "30px 0px 10px 0px"}}>
+        <div className="row">
+          <div className="col-6" >
+            <h3 id="logo">IP</h3>
           </div>
-          <div className="col-sm-1 d-none d-sm-block" style={{textAlign:"end", marginTop:"-8px"}}>
-            <ScrollTo color={DARk_GREY_COLOR} />
+          {/* <div className="col-4" style={{color: DARk_GREY_COLOR, textAlign:"end"}}>
+                Secunderabad, karkhana <br /> +91 9700058792 <br />{" "}
+                ianpaul789@gmail.com
+              </div> */}
+          <div className="col-6" style={{ textAlign: "end"}}> <ScrollTo color={DARk_GREY_COLOR}/> </div>
+          <div style={{ textAlign: "center", color: LIGHT_GREY_COLOR , paddingTop:"20px"}}>
+            &copy; Ian Paul 2016-2021
           </div>
         </div>
       </div>

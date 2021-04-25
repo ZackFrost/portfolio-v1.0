@@ -8,9 +8,10 @@ const Body = () => {
   return (
     <div>
       <Skills />
-      <GetInTouch />
       <Services />
+      <GetInTouch />
       <Projects />
+      
     </div>
   );
 };

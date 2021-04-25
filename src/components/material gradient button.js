@@ -18,7 +18,8 @@ class MaterialGradientButton extends React.Component {
             borderRadius: props.borderRadius,
             border: props.border,
             boxShadow: props.boxShadow,
-            color: props.color
+            color: props.color,
+            background:props.background
         }}
       >
         <div className="card-body">Get In Touch</div>

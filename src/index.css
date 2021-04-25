@@ -13,16 +13,97 @@ code {
     monospace;
 }
 
-@media screen and (max-width: 575px) and (min-width: 600px) {
-  
+colors {
+  --light-grey-color: #B4B4B4;
 }
 
-.home_banner_area {
-  background: url(https://preview.colorlib.com/theme/breed2/img/banner/home-banner.png) no-repeat top center;
-      background-position-x: center;
-      background-position-y: top;
-      background-size: auto;
-  background-position: center;
-  background-size: cover;
-  min-height: 890px;
+#header {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+#footer {
+  background-color: #faf9f7;
+}
+
+#custom_gradient_button {
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+.social-media-icon {
+  border-radius: 50%;
+  font-size: 21px;
+  width: 37px;
+  height: 37px;
+  display: inline-block;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+  text-align: center;
+  background-color: rgb(244, 244, 244);
+}
+
+.button {
+  max-width: 150px;
+  max-height: 50px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 52px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+}
+
+.dark-button{
+  box-shadow: 4px 4px 18px 1px var(--light-grey-color);
+}
+
+
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
+
+
+body .gradient-btn-1,
+body .gradient-btn-2 {
+  background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+  background-size: 600%;
+  -webkit-animation: anime 20s linear infinite;
+          animation: anime 20s linear infinite;
+}
+
+body .gradient-btn-2 {
+  margin-top: -30px;
+  z-index: -1;
+  filter: blur(30px);
+  opacity: 0.8;
+}
+
+
+@-webkit-keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

@@ -8,8 +8,8 @@ let socialMediaIcons = [
   { name: "LinkedIn", path: linkedin },
   { name: "Facebook", path: facebook },
   { name: "github", path: github },
-  { name: "instagram", path: instagram },
-  { name: "whatsapp", path: whatsapp },
+  // { name: "instagram", path: instagram },
+  // { name: "whatsapp", path: whatsapp },
 ];
 
 

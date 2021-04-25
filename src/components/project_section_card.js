@@ -6,42 +6,78 @@ import {
 } from "../utils/color_utils";
 import Android from "../assets/icons/platform/android.svg";
 
+const CustomPlatformWidget = ({ color, text }) => {
+  return <h5 style={{ color: color, fontSize: "13px" }}>{text}</h5>;
+};
+
 const ProjectSectionCard = ({ title, description, image, platform }) => {
+  const styles = {
+    cardContainer: {
+      border: "0px",
+      borderRadius: "10px",
+      marginBottom:"70px",
+      marginRight:"10px",
+      minHeight:"330px"
+    },
+    cardImage: {
+      borderTopLeftRadius: "10px",
+      borderTopRightRadius: "10px",
+      height: "160px",
+      objectFit: "cover",
+    },
+    cardBody: {
+      padding: "25px",
+    },
+    contentTitle: { fontWeight: "600" },
+    contentDescription: {
+      fontSize: "14px",
+      margin: "10px 0px 30px 0px",
+      color: LIGHT_GREY_DESCRIPTION,
+    },
+    platformCard: { width: "13px", paddingTop: "5px" },
+  };
+
   return (
     <div
-      className="card shadow-lg"
-      style={{
-        boxShadow: `5px 5px 15px ${BACKGROUND_COLOR}`,
-        border: "0px",
-        marginBottom: "60px",
-      }}
+      className="card shadow"
+      id="card-container"
+      style={styles.cardContainer}
     >
-      <img src={image} style={{
-        width: "100%",
-        height: "140px",
-        objectFit: "cover",
-      }} className="card-img-top" alt="..." />
-      <div className="card-body" style={{ marginTop: "5px", padding: "20px" }}>
-        <h5 style={{ fontWeight: "600" }}>{title}</h5>
-        <p
-          style={{
-            fontSize: "14px",
-            margin: "10px 0px 30px 0px",
-            color: LIGHT_GREY_DESCRIPTION,
-          }}
-        >
+      <img
+        src={image}
+        className="card-img-top"
+        alt="..."
+        style={styles.cardImage}
+      />
+      <div className="card-body" style={styles.cardBody}>
+        <h5 id="platform-title" style={styles.contentTitle}>
+          {title}
+        </h5>
+        <p id="platform-description" style={styles.contentDescription}>
           {description}
         </p>
-        <div className="row" style={{ float:"right"}}>
+        <div id="platform-container" style={{ float: "right" }} className="row">
           {platform.map((platformName, index) => {
             return (
-              <div style={{width: "12px"}}>
+              <div style={{ width: "12px" }}>
                 {platformName === "android" ? (
-                  <img className="row" key={index} src={Android} style={{width:"13px", paddingTop:"5px"}} />
-                ) : 
-                (<span className="row" style={{ color:platformName == "ios" ? "grey" : "black",
-                 fontSize: "13px", fontWeight:"500"}}>
-                  {platformName}</span>
+                  <img
+                    className="row"
+                    key={index}
+                    src={Android}
+                    style={styles.platformCard}
+                  />
+                ) : (
+                  <span
+                    className="row"
+                    style={{
+                      color: platformName == "ios" ? "grey" : "black",
+                      fontSize: "13px",
+                      fontWeight: "600",
+                    }}
+                  >
+                    {platformName}
+                  </span>
                 )}
               </div>
             );

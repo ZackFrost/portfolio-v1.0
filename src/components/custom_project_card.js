@@ -4,7 +4,7 @@ const CustomProjectCard = ({}) => {
   return (
     <section
       id="card-head"
-      className="card shadow-lg"
+      className="card shadow-lg container"
       style={{
         maxWidth: "500px",
         height: "300px",
