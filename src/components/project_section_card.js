@@ -1,6 +1,7 @@
 import React from "react";
 import {
   BACKGROUND_COLOR,
+  LIGHT_BACKGROUND_COLOR,
   LIGHT_GREY_COLOR,
   LIGHT_GREY_DESCRIPTION,
 } from "../utils/color_utils";
@@ -10,7 +11,7 @@ const CustomPlatformWidget = ({ color, text }) => {
   return <h5 style={{ color: color, fontSize: "13px" }}>{text}</h5>;
 };
 
-const ProjectSectionCard = ({ title, description, image, platform }) => {
+const ProjectSectionCard = ({ title, description, image, platform, link}) => {
   const styles = {
     cardContainer: {
       border: "0px",
@@ -18,12 +19,14 @@ const ProjectSectionCard = ({ title, description, image, platform }) => {
       marginBottom:"70px",
       marginRight:"10px",
       minHeight:"330px"
+      
     },
     cardImage: {
       borderTopLeftRadius: "10px",
       borderTopRightRadius: "10px",
       height: "160px",
       objectFit: "cover",
+      borderBottom:`1px solid ${LIGHT_BACKGROUND_COLOR}`
     },
     cardBody: {
       padding: "25px",
@@ -35,6 +38,10 @@ const ProjectSectionCard = ({ title, description, image, platform }) => {
       color: LIGHT_GREY_DESCRIPTION,
     },
     platformCard: { width: "13px", paddingTop: "5px" },
+    linkStyle:{
+      fontSize:"12px",
+      textDecoration:"none"
+    }
   };
 
   return (
@@ -56,7 +63,12 @@ const ProjectSectionCard = ({ title, description, image, platform }) => {
         <p id="platform-description" style={styles.contentDescription}>
           {description}
         </p>
-        <div id="platform-container" style={{ float: "right" }} className="row">
+        <div id="platform-container"className="row">
+          <section id="card-links" className="col-8">
+            {(link)? <a href={link} style={styles.linkStyle}>View Site</a> : null}
+          </section>
+          <section id="card-links" className="col-4 ">
+          <section className="row" style={{float:"right"}}>
           {platform.map((platformName, index) => {
             return (
               <div style={{ width: "12px" }}>
@@ -82,6 +94,9 @@ const ProjectSectionCard = ({ title, description, image, platform }) => {
               </div>
             );
           })}
+          </section>
+          </section>
+          
         </div>
       </div>
     </div>
