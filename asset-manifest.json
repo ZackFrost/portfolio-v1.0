@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/IanPaul/static/css/main.8f97b5f0.chunk.css",
-    "main.js": "/IanPaul/static/js/main.542bf322.chunk.js",
-    "main.js.map": "/IanPaul/static/js/main.542bf322.chunk.js.map",
+    "main.js": "/IanPaul/static/js/main.5901f0c6.chunk.js",
+    "main.js.map": "/IanPaul/static/js/main.5901f0c6.chunk.js.map",
     "runtime-main.js": "/IanPaul/static/js/runtime-main.db62ccd3.js",
     "runtime-main.js.map": "/IanPaul/static/js/runtime-main.db62ccd3.js.map",
     "static/js/2.8176b617.chunk.js": "/IanPaul/static/js/2.8176b617.chunk.js",
@@ -10,10 +10,10 @@
     "index.html": "/IanPaul/index.html",
     "static/css/main.8f97b5f0.chunk.css.map": "/IanPaul/static/css/main.8f97b5f0.chunk.css.map",
     "static/js/2.8176b617.chunk.js.LICENSE.txt": "/IanPaul/static/js/2.8176b617.chunk.js.LICENSE.txt",
-    "static/media/adobe_ps.df6f75c6.svg": "/IanPaul/static/media/adobe_ps.df6f75c6.svg",
-    "static/media/adobe_xd.a5b3c95b.svg": "/IanPaul/static/media/adobe_xd.a5b3c95b.svg",
+    "static/media/adobeps.d9ddfe4c.png": "/IanPaul/static/media/adobeps.d9ddfe4c.png",
+    "static/media/adobexd.2c8fee73.png": "/IanPaul/static/media/adobexd.2c8fee73.png",
     "static/media/android.c13c3996.svg": "/IanPaul/static/media/android.c13c3996.svg",
-    "static/media/android_studio.790a24d3.svg": "/IanPaul/static/media/android_studio.790a24d3.svg",
+    "static/media/android_studio.554010a1.png": "/IanPaul/static/media/android_studio.554010a1.png",
     "static/media/arrow.b20e4da2.svg": "/IanPaul/static/media/arrow.b20e4da2.svg",
     "static/media/bootstrap.d5210cde.png": "/IanPaul/static/media/bootstrap.d5210cde.png",
     "static/media/card-bg2.b9dd4a41.jpg": "/IanPaul/static/media/card-bg2.b9dd4a41.jpg",
@@ -25,11 +25,10 @@
     "static/media/flutter.c7660c66.svg": "/IanPaul/static/media/flutter.c7660c66.svg",
     "static/media/github.fa0212fe.svg": "/IanPaul/static/media/github.fa0212fe.svg",
     "static/media/header-bg.e86a9bb1.jpg": "/IanPaul/static/media/header-bg.e86a9bb1.jpg",
-    "static/media/html.a577af37.svg": "/IanPaul/static/media/html.a577af37.svg",
+    "static/media/html.216e2ec2.png": "/IanPaul/static/media/html.216e2ec2.png",
     "static/media/ian.7852d7f4.png": "/IanPaul/static/media/ian.7852d7f4.png",
     "static/media/inspire.ad0b4d0c.png": "/IanPaul/static/media/inspire.ad0b4d0c.png",
     "static/media/instagram.02967a62.svg": "/IanPaul/static/media/instagram.02967a62.svg",
-    "static/media/javascript.ca691704.svg": "/IanPaul/static/media/javascript.ca691704.svg",
     "static/media/linkedin.5c83b128.svg": "/IanPaul/static/media/linkedin.5c83b128.svg",
     "static/media/mobile.b722cb02.svg": "/IanPaul/static/media/mobile.b722cb02.svg",
     "static/media/mongodb.1aca075d.svg": "/IanPaul/static/media/mongodb.1aca075d.svg",
@@ -43,6 +42,6 @@
     "static/js/runtime-main.db62ccd3.js",
     "static/js/2.8176b617.chunk.js",
     "static/css/main.8f97b5f0.chunk.css",
-    "static/js/main.542bf322.chunk.js"
+    "static/js/main.5901f0c6.chunk.js"
   ]
 }
