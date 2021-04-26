@@ -95,6 +95,7 @@ const Header = () => {
                     customCss="gradient-btn-1"
                     textColor="#fff"
                     marginRight="2rem"
+                    marginBottom="1rem"
                   />
                   <MaterialButton
                     name="RESUME"

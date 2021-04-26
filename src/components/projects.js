@@ -33,13 +33,13 @@ const Projects = () => {
             {/* <h5>Personal & Freelance</h5> */}
           </div>
           {projectsMap.map((project, index) => (
-            <section className="row">
+            <section className="row" style={{marginBottom:"15px"}}>
               <section id="section-subtitle">
                 <h5 style={Styles.sectionSubtitle}>{project.title}</h5>
               </section>
-              <section id="section-card" className="row">
+              <section id="section-card" className="row" >
                 {project.projects.map((service, index) => (
-                  <div key={index} className="col-lg-3 col-md-4 col-sm-6">
+                  <div key={index} className="col-lg-3 col-md-4 col-sm-6 me-5 mb-5">
                     <ProjectSectionCard
                       platform={service.platforms}
                       title={service.title}

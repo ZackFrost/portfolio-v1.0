@@ -106,10 +106,10 @@ const GetInTouch = () => {
           className="card shadow-lg"
           style={styles.cardMain}
         >
-          <section className="row">
-            <section className="col" style={styles.profileContainer}>
+          <section className="row gx-0 gy-0">
+            <section id="profile-container" className="col-md-6 profile-container">
               <section id="profile-container">
-                <section id="profile-bg" style={styles.profileBG}></section>
+                <section id="profile-background" className="profile-bg"></section>
                 <section id="profile-image">
                   <img src={UserImage} style={styles.profileImage} />
                 </section>

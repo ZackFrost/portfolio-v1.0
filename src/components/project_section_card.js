@@ -16,10 +16,7 @@ const ProjectSectionCard = ({ title, description, image, platform, link}) => {
     cardContainer: {
       border: "0px",
       borderRadius: "10px",
-      marginBottom:"70px",
-      marginRight:"10px",
-      minHeight:"330px"
-      
+      minHeight:"330px",
     },
     cardImage: {
       borderTopLeftRadius: "10px",
@@ -34,7 +31,7 @@ const ProjectSectionCard = ({ title, description, image, platform, link}) => {
     contentTitle: { fontWeight: "600" },
     contentDescription: {
       fontSize: "14px",
-      margin: "10px 0px 30px 0px",
+      padding: "10px 0px 30px 0px",
       color: LIGHT_GREY_DESCRIPTION,
     },
     platformCard: { width: "13px", paddingTop: "5px" },

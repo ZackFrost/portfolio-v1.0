@@ -24,6 +24,7 @@ export class MaterialButton extends React.Component{
                 cursor: "pointer",
                 boxShadow: props.boxShadow,
                 marginRight: props.marginRight,
+                marginBottom: props.marginBottom,
             }
         }
 

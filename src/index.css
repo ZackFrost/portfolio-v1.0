@@ -14,7 +14,7 @@ code {
 }
 
 colors {
-  --light-grey-color: #B4B4B4;
+  --light-grey-color: #B4B4B4; 
 }
 
 #header {
@@ -82,6 +82,47 @@ body .gradient-btn-2 {
   z-index: -1;
   filter: blur(30px);
   opacity: 0.8;
+}
+
+@media only screen and (max-device-width: 766px){
+  .profile-container{
+    max-width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px ;
+    box-shadow: 0px 6px 4px -5px rgba(199, 199, 199, 0.7);
+  }
+
+  .profile-bg{
+    background-image: url(./assets/images/card-bg2.jpg);
+    height: 130px;
+    max-width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    border-Top-Left-Radius: 17px;
+    border-Top-Right-Radius: 17px;
+  }
+}
+
+@media only screen and (min-device-width: 766px){
+  
+  .profile-container{
+    max-width: 280px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 5px 0px 5px -5px rgba(0,0,0,0.7);
+  }
+
+  .profile-bg{
+    background-image:  url(./assets/images/card-bg2.jpg);
+    height: 130px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    border-Top-Left-Radius: 17px;
+  }
 }
 
 
