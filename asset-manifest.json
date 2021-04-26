@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/IanPaul/static/css/main.8f97b5f0.chunk.css",
-    "main.js": "/IanPaul/static/js/main.4e0482c0.chunk.js",
-    "main.js.map": "/IanPaul/static/js/main.4e0482c0.chunk.js.map",
+    "main.js": "/IanPaul/static/js/main.9ac56302.chunk.js",
+    "main.js.map": "/IanPaul/static/js/main.9ac56302.chunk.js.map",
     "runtime-main.js": "/IanPaul/static/js/runtime-main.db62ccd3.js",
     "runtime-main.js.map": "/IanPaul/static/js/runtime-main.db62ccd3.js.map",
     "static/js/2.8176b617.chunk.js": "/IanPaul/static/js/2.8176b617.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/bootstrap.d5210cde.png": "/IanPaul/static/media/bootstrap.d5210cde.png",
     "static/media/card-bg2.b9dd4a41.jpg": "/IanPaul/static/media/card-bg2.b9dd4a41.jpg",
     "static/media/css.212d777a.svg": "/IanPaul/static/media/css.212d777a.svg",
+    "static/media/deadly-timer.1c7a7ee6.jpg": "/IanPaul/static/media/deadly-timer.1c7a7ee6.jpg",
     "static/media/development.5ba63794.png": "/IanPaul/static/media/development.5ba63794.png",
     "static/media/email.fba70f7e.svg": "/IanPaul/static/media/email.fba70f7e.svg",
     "static/media/encrypt-chat.93562a92.jpg": "/IanPaul/static/media/encrypt-chat.93562a92.jpg",
@@ -28,7 +29,7 @@
     "static/media/header-bg.e86a9bb1.jpg": "/IanPaul/static/media/header-bg.e86a9bb1.jpg",
     "static/media/html.216e2ec2.png": "/IanPaul/static/media/html.216e2ec2.png",
     "static/media/ian.7852d7f4.png": "/IanPaul/static/media/ian.7852d7f4.png",
-    "static/media/inspire.ad0b4d0c.png": "/IanPaul/static/media/inspire.ad0b4d0c.png",
+    "static/media/inspire1.200a94b1.jpg": "/IanPaul/static/media/inspire1.200a94b1.jpg",
     "static/media/instagram.02967a62.svg": "/IanPaul/static/media/instagram.02967a62.svg",
     "static/media/linkedin.5c83b128.svg": "/IanPaul/static/media/linkedin.5c83b128.svg",
     "static/media/mobile.b722cb02.svg": "/IanPaul/static/media/mobile.b722cb02.svg",
@@ -37,6 +38,7 @@
     "static/media/reactjs.ee97676b.svg": "/IanPaul/static/media/reactjs.ee97676b.svg",
     "static/media/redux.b3b939c6.png": "/IanPaul/static/media/redux.b3b939c6.png",
     "static/media/selenium.a00407a2.svg": "/IanPaul/static/media/selenium.a00407a2.svg",
+    "static/media/sribhulokhatravels.272d1540.jpg": "/IanPaul/static/media/sribhulokhatravels.272d1540.jpg",
     "static/media/website.7f7697d6.svg": "/IanPaul/static/media/website.7f7697d6.svg",
     "static/media/whatsapp.4a15730c.svg": "/IanPaul/static/media/whatsapp.4a15730c.svg"
   },
@@ -44,6 +46,6 @@
     "static/js/runtime-main.db62ccd3.js",
     "static/js/2.8176b617.chunk.js",
     "static/css/main.8f97b5f0.chunk.css",
-    "static/js/main.4e0482c0.chunk.js"
+    "static/js/main.9ac56302.chunk.js"
   ]
 }
