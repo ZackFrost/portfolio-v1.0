@@ -124,7 +124,7 @@ const GetInTouch = () => {
                       width="12"
                       style={{ marginRight: "8px", marginTop: "-2px" }}
                     />
-                    ianpaul789@gmail
+                    ianpaul789@gmail.com
                   </section>
                   <section id="profile-intro" style={styles.profileIntro}>
                     Hi, my name is Ian Paul and I'm a senior software engineer.
