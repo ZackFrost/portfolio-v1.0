@@ -124,7 +124,7 @@ const GetInTouch = () => {
                       width="12"
                       style={{ marginRight: "8px", marginTop: "-2px" }}
                     />
-                    ianpaul789@gmail.com
+                    ianpaul789@gmail.com  
                   </section>
                   <section id="profile-intro" style={styles.profileIntro}>
                     Hi, my name is Ian Paul and I'm a senior software engineer.
@@ -164,7 +164,8 @@ const GetInTouch = () => {
                   clients all over the world. Below is a quick overview of my
                   main technical skill sets and technologies I use. Want to find
                   out more about my experience? Check out my online resume and
-                  project portfolio.
+                  project portfolio. I create successful websites that are fast,
+                   easy to use, and built with best practices.
                 </section>
                 <section className="row" style={{ marginTop: "35px" }}>
                   {/* <section className="form col-md-7">

@@ -62,9 +62,11 @@ const Header = () => {
                 {/* <h5 style={styles.label}>Flutter Developer</h5> */}
                 <section style={styles.headerTitle}>Ian Paul</section>
                 <p style={styles.headerDescription}>
-                  I'm a software engineer and a part-time freelancer building
-                  mobile and web applications. Develop highly interactive Front
-                  end / User Interfaces for your web and mobile applications
+                  Hi. I’m Ian, a freelance Front-end Developer with 12 years
+                  commercial experience creating successful websites. I'm a
+                  software engineer and a part-time freelancer building mobile
+                  and web applications. I develop highly interactive Front end /
+                  User Interfaces for your web and mobile applications.
                 </p>
               </section>
               <section id="section-contact">
