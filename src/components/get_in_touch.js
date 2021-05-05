@@ -12,11 +12,13 @@ import {
   LIGHT_BACKGROUND_COLOR,
   LIGHT_GREY_COLOR,
   LIGHT_GREY_DESCRIPTION,
+  TITLE_COLOR,
 } from "../utils/color_utils";
 import BgCard from "../assets/images/card-bg2.jpg";
 import { socialMediaIcons } from "../utils/social_utils";
 import UserImage from "../assets/images/ian.png";
 import { MaterialButton } from "./material_button";
+import { ProjectInfoFeature } from "./profile_info_feature";
 
 const GetInTouch = () => {
   const styles = {
@@ -28,13 +30,13 @@ const GetInTouch = () => {
       borderRadius: "17px",
       border: "none",
     },
-    profileContainer: {
-      maxWidth: "280px",
-      textAlign: "center",
-      padding: "0px",
-      margin: "0px",
-      boxShadow: "5px 0px 5px -5px rgba(0,0,0,0.7)",
-    },
+    // profileContainer: {
+    //   maxWidth: "280px",
+    //   textAlign: "center",
+    //   padding: "0px",
+    //   margin: "0px",
+    //   boxShadow: "5px 0px 5px -5px rgba(0,0,0,0.7)",
+    // },
     profileBG: {
       backgroundImage: `url(${BgCard})`,
       height: "130px",
@@ -56,8 +58,7 @@ const GetInTouch = () => {
       boxShadow: "0px 0px 8px 0px #6E6E5E, 0px 0px 0px 0px #6E6E5E",
     },
     emailSection: {
-      color: DARk_GREY_COLOR,
-      transform: "translateY(-44px)",
+      color: DESCRIPTION_COLOR_LIGHT,
       fontSize: "14px",
     },
     profileIntro: {
@@ -68,12 +69,13 @@ const GetInTouch = () => {
     },
     socialMediaIcons: {
       paddingBottom: "10px",
+      marginLeft: "-15px",
     },
     aboutContainer: {
-      margin: "70px 50px 50px 45px",
+      margin: "70px 80px 50px 50px",
     },
     sectionDescription: {
-      fontSize: "17px",
+      fontSize: "15px",
       textAlign: "justify",
       color: DESCRIPTION_COLOR,
       paddingTop: "10px",
@@ -107,13 +109,22 @@ const GetInTouch = () => {
           style={styles.cardMain}
         >
           <section className="row gx-0 gy-0">
-            <section id="profile-container" className="col-md-6 profile-container">
+            <section
+              id="profile-container"
+              className="col-md-6 profile-container"
+            >
               <section id="profile-container">
-                <section id="profile-background" className="profile-bg"></section>
+                <section
+                  id="profile-background"
+                  className="profile-bg"
+                ></section>
                 <section id="profile-image">
                   <img src={UserImage} style={styles.profileImage} />
                 </section>
-                <section id="profile-data">
+                <section
+                  id="profile-data"
+                  style={{ transform: "translateY(-44px)" }}
+                >
                   <section
                     id="section-email-id"
                     className="col"
@@ -124,12 +135,22 @@ const GetInTouch = () => {
                       width="12"
                       style={{ marginRight: "8px", marginTop: "-2px" }}
                     />
-                    ianpaul789@gmail.com  
+                    ianpaul789@gmail.com
                   </section>
+                  <p
+                    style={{
+                      padding: "10px 2rem",
+                      color: DESCRIPTION_COLOR,
+                      fontSize: "14px",
+                    }}
+                  >
+                    Living, learning, & leveling up one day at a time!
+                  </p>
+                  {/* <ProjectInfoFeature style={{}}/>
                   <section id="profile-intro" style={styles.profileIntro}>
                     Hi, my name is Ian Paul and I'm a senior software engineer.
                     Welcome to my personal website!
-                  </section>
+                  </section> */}
                   <section
                     id="profile-social-icons"
                     style={styles.socialMediaIcons}
@@ -154,40 +175,45 @@ const GetInTouch = () => {
             <section className="col">
               <section style={styles.aboutContainer}>
                 <section id="section-title">
-                  <h3 style={{ fontWeight: "700" }}>What I do?</h3>
+                  <h5 style={{ fontWeight: "700" }}>What I do?</h5>
                 </section>
                 <section
                   id="section-description"
                   style={styles.sectionDescription}
                 >
-                  I have more than 10 years' experience building software for
-                  clients all over the world. Below is a quick overview of my
-                  main technical skill sets and technologies I use. Want to find
-                  out more about my experience? Check out my online resume and
-                  project portfolio. I create successful websites that are fast,
-                   easy to use, and built with best practices.
+                  {/* I have 2.3 years of professional experience building
+                  applications.  */}
+                  I create successful websites and mobile apps
+                  that are fast, easy to use, and built with best practices. I,
+                  am also working on a few side projects providing SEO and
+                  Google Advertising services for clients. Want to find out more
+                  about my experience? Check out my resume and project
+                  portfolio.
+                  <br />
+                  <br />
+                  Outside of work i run a tech blog as a passion towards tech
+                  savy content. Check it out!{" "}
+                  <span>
+                    <a target="_blank" href="https://geekviatech.blogspot.com/">
+                      geekviatech
+                    </a>
+                  </span>
                 </section>
-                <section className="row" style={{ marginTop: "35px" }}>
-                  {/* <section className="form col-md-7">
-                    <div className="form-group">
-                      <input
-                        type="email"
-                        className="form-control form-control-lg"
-                        id="exampleInputEmail1"
-                        aria-describedby="emailHelp"
-                        placeholder="Enter your email"
-                      />
-                    </div>
-                  </section> */}
-                  <section id="get-in-touch" className="col-md-5">
-                    <MaterialButton
-                      name="Get In Touch"
-                      onTap={() => null}
-                      customCss="gradient-btn-1"
-                      textColor="#fff"
-                      height="48px"
-                    />
-                  </section>
+                <section style={{ marginTop: "25px" }}>
+                  <ProjectInfoFeature styles="" />
+                </section>
+                <section
+                  id="get-in-touch"
+                  className="col "
+                  style={{ marginTop: "10px" }}
+                >
+                  <MaterialButton
+                    name="Get In Touch"
+                    onTap={() => null}
+                    customCss="gradient-btn-1"
+                    textColor="#fff"
+                    height="48px"
+                  />
                 </section>
               </section>
             </section>

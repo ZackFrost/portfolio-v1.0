@@ -19,7 +19,7 @@ const Services = () => {
             Services
           </h1>
           {servicesMap.map((service, index) => (
-            <div key={index} className="col-12 col-md-6 col-lg-4 gx-4">
+            <div key={index} className="col-12 col-md-6 col-lg-4 gx-5">
               <ServiceSectionCard
                 title={service.title}
                 description={service.descritpion}

@@ -121,7 +121,7 @@ const Header = () => {
     //   <div id="header" className="container" style={{background:"transparent"}}>
     //     <div className="row">
     //       <h1 id="logo">IP</h1>
-    //     </div>
+    //     </div> 
     //     <div className="row" style={{ paddingTop: "15%" }}>
     //       <div className="col-8">
     //         <h5 style={{ color: LABEL_COLOR }}>Flutter Developer</h5>

@@ -1,5 +1,11 @@
 import React from "react";
-import { CUSTOM_SUNRISE_GRADIENT_COLOR, DESCRIPTION_COLOR, DESCRIPTION_COLOR_LIGHT, LABEL_COLOR, LIGHT_BACKGROUND_COLOR } from "../utils/color_utils";
+import {
+  CUSTOM_SUNRISE_GRADIENT_COLOR,
+  DESCRIPTION_COLOR,
+  DESCRIPTION_COLOR_LIGHT,
+  LABEL_COLOR,
+  LIGHT_BACKGROUND_COLOR,
+} from "../utils/color_utils";
 import { projectsMap } from "../utils/project_utils";
 import ProjectSectionCard from "./project_section_card";
 
@@ -11,7 +17,7 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects_section" style={{ padding: "80px 0px 80px 0px" }}>
+    <div id="projects_section" style={{ padding: "80px 0px 160px 0px" }}>
       <div className="container">
         <div className="row">
           <div
@@ -30,28 +36,26 @@ const Projects = () => {
             >
               Projects
             </h1>
-            {/* <h5>Personal & Freelance</h5> */}
+            <h5>Personal & Freelance</h5>
           </div>
-          {projectsMap.map((project, index) => (
-            <section className="row" style={{marginBottom:"15px"}}>
-              <section id="section-subtitle">
-                <h5 style={Styles.sectionSubtitle}>{project.title}</h5>
+          <div className="row">
+            {projectsMap.map((project, index) => (
+              <section
+                id="section-card"
+                key={index}
+                className="col-lg-4 col-md-6 col-sm-6 col-12 d-flex justify-content-center"
+                style={{padding:"0px",}}
+              >
+                <ProjectSectionCard
+                  platform={project.platforms}
+                  title={project.title}
+                  description={project.descritpion}
+                  image={project.image}
+                  link={project.link}
+                />
               </section>
-              <section id="section-card" className="row" >
-                {project.projects.map((service, index) => (
-                  <div key={index} className="col-lg-3 col-md-4 col-sm-6 me-5 mb-5">
-                    <ProjectSectionCard
-                      platform={service.platforms}
-                      title={service.title}
-                      description={service.descritpion}
-                      image={service.image}
-                      link={service.link}
-                    />
-                  </div>
-                ))}
-              </section>
-            </section>
-          ))}
+            ))}
+          </div>
           <div className="row"></div>
         </div>
       </div>

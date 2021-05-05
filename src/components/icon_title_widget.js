@@ -25,7 +25,7 @@ const IconTitleWidget = ({ path, title, isShowTitle = true }) => {
     <div id="iconTitle" style={styles.container}>
       <div className="row" style={{}}>
         <image id="icon">
-          <img src={path} alt="not found" height="53" width="53"  style={styles.image} />
+          <img src={path} alt="not found" height="45" width="45"  style={styles.image} />
         </image>
         {isShowTitle && (
           <section id="iconTitle" style={styles.title}>

@@ -3,11 +3,13 @@ import "../index.css";
 import HeaderBG from "../assets/images/header-bg.jpg";
 import { socialMediaIcons } from "../utils/social_utils";
 import {
+  CUSTOM_SUNRISE_GRADIENT_COLOR,
   DESCRIPTION_COLOR,
   LABEL_COLOR,
   LIGHT_GREY_COLOR,
 } from "../utils/color_utils";
 import { MaterialButton } from "../components/material_button";
+import { NeonButton } from "../components/neon_button";
 
 const Header = () => {
   const styles = {
@@ -62,15 +64,14 @@ const Header = () => {
                 {/* <h5 style={styles.label}>Flutter Developer</h5> */}
                 <section style={styles.headerTitle}>Ian Paul</section>
                 <p style={styles.headerDescription}>
-                  Hi. I’m Ian, a freelance Front-end Developer with 12 years
-                  commercial experience creating successful websites. I'm a
-                  software engineer and a part-time freelancer building mobile
-                  and web applications. I develop highly interactive Front end /
-                  User Interfaces for your web and mobile applications.
+                  Hi. I’m Ian, a software engineer and a part-time freelancer building mobile
+                  and web applications. My daily activity involve's developing highly interactive
+                  front end for mobile and web applications. Below is a quick overview 
+                  of my main technical skill sets and technologies I use.
                 </p>
               </section>
               <section id="section-contact">
-                <section id="social-links">
+                {/* <section id="social-links">
                   <ul style={{ padding: "10px 0px" }}>
                     {socialMediaIcons.map((icons, index) => {
                       return (
@@ -84,20 +85,20 @@ const Header = () => {
                       );
                     })}
                   </ul>
-                </section>
+                </section> */}
                 <section
                   id="section-cta"
                   className="row"
                   style={styles.sectionContact}
                 >
+                  
                   <MaterialButton
                     name="CONTACT ME"
                     onTap={() => console.log("yuhuui")}
-                    // boxShadow={`4px 4px 18px 1px ${LIGHT_GREY_COLOR}`}
-                    customCss="gradient-btn-1"
+                    boxShadow={`0px 1px 14px 1px #FFC371`}
+                    backgroundColor={CUSTOM_SUNRISE_GRADIENT_COLOR}
                     textColor="#fff"
-                    marginRight="2rem"
-                    marginBottom="1rem"
+                    margin="0px 1.8rem 1.8rem 0px"
                   />
                   <MaterialButton
                     name="RESUME"

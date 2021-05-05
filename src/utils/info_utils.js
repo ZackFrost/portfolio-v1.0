@@ -1,16 +1,20 @@
 export let info = [
   {
-    total: "2",
-    title: "Experience",
-    tag:"years"
+    total: "2+",
+    title: "YEARS EXPERIENCE",
+    // tag:"years"
   },
   {
-    total: "8",
-    title: "Projects",
+    total: "11",
+    title: "PROJECTS",
   },
   {
-    total: "139",
-    title: "Articles",
+    total: "64",
+    title: "CONTRIBUTIONS",
+  },
+  {
+    total: "136",
+    title: "ARTICLES",
   },
   
 ];

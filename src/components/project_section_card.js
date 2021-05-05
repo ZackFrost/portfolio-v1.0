@@ -16,7 +16,9 @@ const ProjectSectionCard = ({ title, description, image, platform, link}) => {
     cardContainer: {
       border: "0px",
       borderRadius: "10px",
-      minHeight:"330px",
+      minHeight:"310px",
+      maxWidth:"280px",
+      marginBottom: "40px"
     },
     cardImage: {
       borderTopLeftRadius: "10px",
@@ -43,7 +45,7 @@ const ProjectSectionCard = ({ title, description, image, platform, link}) => {
 
   return (
     <div
-      className="card shadow"
+      className="card shadow-lg"
       id="card-container"
       style={styles.cardContainer}
     >
@@ -62,7 +64,7 @@ const ProjectSectionCard = ({ title, description, image, platform, link}) => {
         </p>
         <div id="platform-container"className="row">
           <section id="card-links" className="col-8">
-            {(link)? <a href={link} style={styles.linkStyle}>View Site</a> : null}
+            {(link)? <a href={link} target="_blank" style={styles.linkStyle}>View</a> : null}
           </section>
           <section id="card-links" className="col-4 ">
           <section className="row" style={{float:"right"}}>

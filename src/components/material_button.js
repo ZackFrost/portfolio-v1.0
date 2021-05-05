@@ -11,27 +11,29 @@ export class MaterialButton extends React.Component{
 
         const Styles = {
             button:{
-                backgroundColor: props.backgroundColor,
-                maxWidth: "150px",
-                maxHeight: props.height ?? "50px",
-                fontSize: "12px",
-                textAlign: "center",
-                lineHeight: "52px",
-                fontWeight: "700",
-                borderRadius: "5px",
+                background: props.backgroundColor,
+                width: props.maxWidth ?? "150px",
+                height: props.maxHeight ?? "50px",
+                borderRadius: props.borderRadius ?? "5px",
                 border: "none",
-                color: props.textColor,
                 cursor: "pointer",
                 boxShadow: props.boxShadow,
-                marginRight: props.marginRight,
-                marginBottom: props.marginBottom,
+                margin:props.margin
+            },
+            btnText:{
+                color: props.textColor,
+                fontSize: props.fontSize ?? "12px",
+                fontWeight: "700",
+                lineHeight: props.lineHeight ?? "50px",
+                textAlign: "center",
+                boxSizing: "border-box", 
             }
         }
 
         
         return (
             <section style={Styles.button} className={props.customCss} onClick={props.onTap.bind(this)}>
-                {props.name}
+                <p style={Styles.btnText}>{props.name}</p>
             </section>
         )
     }
