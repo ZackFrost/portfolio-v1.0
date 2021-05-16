@@ -171,17 +171,13 @@ body .gradient-btn-2 {
   }
 
   .profile-bg{
-    background-image: url(./assets/images/card-bg3.jpg);
+    background-image: url(./assets/images/card-bg2.jpg);
     height: 130px;
     max-width: 100%;
     overflow: hidden;
     background-size: cover;
     border-Top-Left-Radius: 7px;
     border-Top-Right-Radius: 7px;
-  }
-
-  .git-section-button{
-    justify-content: center;
   }
 }
 
@@ -194,10 +190,6 @@ body .gradient-btn-2 {
     margin: 0px;
     box-shadow: 5px 0px 5px -5px rgba(0,0,0,0.7);
     
-  }
-
-  .git-section-button{
-    justify-content: end;
   }
 
   .profile-bg{

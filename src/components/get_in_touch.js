@@ -1,4 +1,5 @@
 import React from "react";
+import DeveloperImage from "../assets/images/development.png";
 import Email from "../assets/icons/email.svg";
 import "../index.css";
 
@@ -15,7 +16,7 @@ import {
   TITLE_COLOR,
 } from "../utils/color_utils";
 import { socialMediaIcons } from "../utils/social_utils";
-import UserImage from "../assets/images/ian2.jpg";
+import UserImage from "../assets/images/ian.png";
 import { MaterialButton } from "./material_button";
 import { ProjectInfoFeature } from "./profile_info_feature";
 
@@ -51,11 +52,11 @@ const GetInTouch = () => {
       display: "block",
       marginLeft: "auto",
       marginRight: "auto",
-      border: "3px solid #fff",
+      border: "2px solid #fff",
       boxShadow: "0px 0px 8px 0px #6E6E5E, 0px 0px 0px 0px #6E6E5E",
     },
     emailSection: {
-      color: "#527660",
+      color:"#527660",
       fontSize: ".9rem",
     },
     profileIntro: {
@@ -109,7 +110,7 @@ const GetInTouch = () => {
                   <img
                     src={Email}
                     width="11"
-                    style={{ marginRight: "7px", marginTop: "-1px" }}
+                    style={{ marginRight: "7px", marginTop: "-1px"}}
                   />
                   ianpaul789@gmail.com
                 </section>
@@ -118,7 +119,7 @@ const GetInTouch = () => {
                     padding: "10px 30px",
                     color: DESCRIPTION_COLOR,
                     fontSize: ".9rem",
-                    letterSpacing: ".1px",
+                    letterSpacing:".1px"
                   }}
                 >
                   Living, learning, & leveling up one day at a time!
@@ -175,15 +176,7 @@ const GetInTouch = () => {
                 <section style={{ marginTop: "23px" }}>
                   <ProjectInfoFeature styles="" />
                 </section>
-                <section
-                  id="get-in-touch"
-                  className="git-section-button"
-                  style={{
-                    marginTop: "12px",
-                    display: "flex",
-                    marginBottom: "30px",
-                  }}
-                >
+                <section id="get-in-touch" style={{ marginTop: "12px", float:"inline-end" }}>
                   <MaterialButton
                     name="GET IN TOUCH"
                     onTap={() => null}

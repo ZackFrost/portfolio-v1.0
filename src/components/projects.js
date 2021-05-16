@@ -40,12 +40,12 @@ const Projects = () => {
             </h1>
             <h5>Personal & Freelance</h5>
           </div>
-          <div className="row gy-4 gx-3 m-0" style={{display:"flex"}}>
+          <div className="row gy-4">
             {projectsMap.map((project, index) => (
               <section
                 id="section-card"
                 key={index}
-                className="col-sm-6 col-md-6 col-12 col-lg-3"
+                className="col-md-4 col-sm-6 col-12 col-lg-3"
               >
                 {/* <ProjectCard image={project.image}/> */}
                 <ProjectSectionCard

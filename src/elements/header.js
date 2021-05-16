@@ -28,7 +28,7 @@ const Header = () => {
       // backgroundColor: "rgba(0, 0, 0, 0.7)",
     },
     heroSection: {
-      margin:"7rem 20px"
+      margin:"7rem 0px"
     },
     headerTitle: {
       // color:"#2b685e",

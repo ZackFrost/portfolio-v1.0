@@ -14,15 +14,13 @@ const ProjectSectionCard = ({ title, description, image, platform, link }) => {
       border: "0px",
       borderRadius: "6px",
       marginBottom: "50px",
-      maxWidth: "250px",
+      minWidth: "260px",
       minHeight: "350px",
-      marginRight:"auto",
-      marginLeft:"auto"
     },
     cardImage: {
       borderTopLeftRadius: "6px",
       borderTopRightRadius: "6px",
-      height: "138px",
+      height: "149px",
       objectFit: "cover",
       borderBottom: `1px solid ${LIGHT_BACKGROUND_COLOR}`,
     },
@@ -31,7 +29,6 @@ const ProjectSectionCard = ({ title, description, image, platform, link }) => {
     },
     contentTitle: { fontWeight: "600", color: "#53586c" },
     contentDescription: {
-      textAlign:"justify",
       fontSize: ".88rem",
       padding: "10px 0px 10px 0px",
       color: DESCRIPTION_COLOR,
