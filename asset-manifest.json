@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/IanPaul/static/css/main.3c356d38.chunk.css",
-    "main.js": "/IanPaul/static/js/main.ae452263.chunk.js",
-    "main.js.map": "/IanPaul/static/js/main.ae452263.chunk.js.map",
+    "main.css": "/IanPaul/static/css/main.3768668f.chunk.css",
+    "main.js": "/IanPaul/static/js/main.b6194a63.chunk.js",
+    "main.js.map": "/IanPaul/static/js/main.b6194a63.chunk.js.map",
     "runtime-main.js": "/IanPaul/static/js/runtime-main.db62ccd3.js",
     "runtime-main.js.map": "/IanPaul/static/js/runtime-main.db62ccd3.js.map",
     "static/js/2.650df7af.chunk.js": "/IanPaul/static/js/2.650df7af.chunk.js",
     "static/js/2.650df7af.chunk.js.map": "/IanPaul/static/js/2.650df7af.chunk.js.map",
     "index.html": "/IanPaul/index.html",
-    "static/css/main.3c356d38.chunk.css.map": "/IanPaul/static/css/main.3c356d38.chunk.css.map",
+    "static/css/main.3768668f.chunk.css.map": "/IanPaul/static/css/main.3768668f.chunk.css.map",
     "static/js/2.650df7af.chunk.js.LICENSE.txt": "/IanPaul/static/js/2.650df7af.chunk.js.LICENSE.txt",
     "static/media/adobeps.d9ddfe4c.png": "/IanPaul/static/media/adobeps.d9ddfe4c.png",
     "static/media/adobexd.2c8fee73.png": "/IanPaul/static/media/adobexd.2c8fee73.png",
@@ -21,7 +21,6 @@
     "static/media/index.css": "/IanPaul/static/media/card-bg2.b9dd4a41.jpg",
     "static/media/css.212d777a.svg": "/IanPaul/static/media/css.212d777a.svg",
     "static/media/deadly-timer.1c7a7ee6.jpg": "/IanPaul/static/media/deadly-timer.1c7a7ee6.jpg",
-    "static/media/development.5ba63794.png": "/IanPaul/static/media/development.5ba63794.png",
     "static/media/email.36b9826f.svg": "/IanPaul/static/media/email.36b9826f.svg",
     "static/media/encrypt-chat.93562a92.jpg": "/IanPaul/static/media/encrypt-chat.93562a92.jpg",
     "static/media/facebook.71296914.svg": "/IanPaul/static/media/facebook.71296914.svg",
@@ -29,7 +28,7 @@
     "static/media/github.fa0212fe.svg": "/IanPaul/static/media/github.fa0212fe.svg",
     "static/media/header-bg.e86a9bb1.jpg": "/IanPaul/static/media/header-bg.e86a9bb1.jpg",
     "static/media/html.216e2ec2.png": "/IanPaul/static/media/html.216e2ec2.png",
-    "static/media/ian.7852d7f4.png": "/IanPaul/static/media/ian.7852d7f4.png",
+    "static/media/ian2.3bf9dd8f.jpg": "/IanPaul/static/media/ian2.3bf9dd8f.jpg",
     "static/media/inspire1.200a94b1.jpg": "/IanPaul/static/media/inspire1.200a94b1.jpg",
     "static/media/instagram.02967a62.svg": "/IanPaul/static/media/instagram.02967a62.svg",
     "static/media/linkedin.5c83b128.svg": "/IanPaul/static/media/linkedin.5c83b128.svg",
@@ -47,7 +46,7 @@
   "entrypoints": [
     "static/js/runtime-main.db62ccd3.js",
     "static/js/2.650df7af.chunk.js",
-    "static/css/main.3c356d38.chunk.css",
-    "static/js/main.ae452263.chunk.js"
+    "static/css/main.3768668f.chunk.css",
+    "static/js/main.b6194a63.chunk.js"
   ]
 }
