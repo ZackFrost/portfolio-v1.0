@@ -70,7 +70,7 @@ const Footer = () => {
                   textAlign: "center",
                   fontSize: "18px",
                   letterSpacing:".3px",
-                  paddingTop: "10px",
+                  padding:"1.4rem 2rem",
                 }}
               >
                 Interested in working together? We should queue up a chat to
