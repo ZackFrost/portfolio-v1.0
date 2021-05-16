@@ -4,22 +4,29 @@ import { servicesMap } from "../utils/service_utils";
 import ServiceSectionCard from "./service_section_card";
 
 const Services = () => {
+  const Styles = {
+    header:{
+      padding: "90px 0px 150px 0px"
+    },
+    sectionTitle:{
+      fontWeight: 700,
+      fontSize: "43px",
+      paddingBottom: "15px",
+      textAlign: "center",
+      color:"#008b74"
+    }
+  }
   return (
-    <section style={{backgroundColor:"white"}}>
+    <section>
       <div id="services_section" className="container">
-        <div className="row" style={{ padding: "100px 0px 150px 0px" }}>
+        <div className="row" style={Styles.header}>
           <h1
-            style={{
-              fontWeight: 700,
-              fontSize: "48px",
-              paddingBottom: "100px",
-              textAlign: "center",
-            }}
+            style={Styles.sectionTitle}
           >
             Services
           </h1>
           {servicesMap.map((service, index) => (
-            <div key={index} className="col-12 col-md-6 col-lg-4 gx-5">
+            <div key={index} className="col-12 col-md-6 col-lg-4 gx-5 gy-5">
               <ServiceSectionCard
                 title={service.title}
                 description={service.descritpion}

@@ -1,29 +1,35 @@
 import React from "react";
+import { DESCRIPTION_COLOR } from "../utils/color_utils";
 
 const ServiceSectionCard = ({ title, description, image }) => {
   const Styles = {
     card: {
-      borderRadius: "7px",
-      border: "0px",
-      padding: "30px 8px 20px 8px",
-      minHeight: "330px",
+      borderRadius: "15px",
+      border:"none",
+      padding: "40px 0px 15px 0px",
+      minHeight: "320px",
     },
     cardTitle: {
-      fontWeight: "700",
-      marginTop: "20px",
+      fontWeight: "600",
+      marginTop: "10px",
       textAlign: "center",
-      fontSize:"18px"
+      letterSpacing:".2px",
+      fontSize:"1.28rem",
+      color:"#008b74"
     },
     cardDescription: {
-      color: "#989898",
-      padding: "10px 10px",
-      textAlign: "justify",
-      fontSize: "15px",
+      // color: "#989898",
+      color:DESCRIPTION_COLOR,
+      fontSize: "1rem",
+      lineHeight:"1.6",
+      textAlign:"justify",
+      marginTop: "20px",
+      padding:"0px 18px"
     },
   };
   return (
-    <div className="card card shadow-lg  mb-5 " style={Styles.card}>
-      <img src={image} class="card-img-top" height="80" alt="Not Found" />
+    <div className="card" style={Styles.card}>
+      <img src={image} className="card-img-top" height="85" alt="Not Found" />
       <div className="card-body">
         <h5 className="card-title" style={Styles.cardTitle}>
           {title}

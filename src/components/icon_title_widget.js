@@ -5,15 +5,15 @@ const IconTitleWidget = ({ path, title, isShowTitle = true }) => {
 
   const styles= {
     container:{
-      marginBottom:"40px",
+      marginBottom:"50px",
       display:"block",
     },
     title:{
-      fontSize: "12px",
-      color: DESCRIPTION_COLOR,
-      fontWeight: 500,
+      fontSize: ".7rem",
+      fontWeight:"600",
+      color: "#527660",
       textAlign:"center",
-      marginTop:"13px"
+      marginTop:"15px",
     },
     image:{
       display:"block",

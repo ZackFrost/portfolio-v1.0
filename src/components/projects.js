@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  BACKGROUND_COLOR,
   CUSTOM_SUNRISE_GRADIENT_COLOR,
   DESCRIPTION_COLOR,
   DESCRIPTION_COLOR_LIGHT,
@@ -7,6 +8,7 @@ import {
   LIGHT_BACKGROUND_COLOR,
 } from "../utils/color_utils";
 import { projectsMap } from "../utils/project_utils";
+import ProjectCard from "./project_card";
 import ProjectSectionCard from "./project_section_card";
 
 const Projects = () => {
@@ -22,30 +24,30 @@ const Projects = () => {
         <div className="row">
           <div
             style={{
-              paddingBottom: "70px",
+              paddingBottom:"15px",
               textAlign: "center",
             }}
           >
             <h1
               style={{
                 fontWeight: 700,
-                fontSize: "48px",
+                fontSize: "43px",
                 textAlign: "center",
-                color: "#000",
+                color: "#008b74",
               }}
             >
               Projects
             </h1>
             <h5>Personal & Freelance</h5>
           </div>
-          <div className="row">
+          <div className="row gy-4">
             {projectsMap.map((project, index) => (
               <section
                 id="section-card"
                 key={index}
-                className="col-lg-4 col-md-6 col-sm-6 col-12 d-flex justify-content-center"
-                style={{padding:"0px",}}
+                className="col-md-4 col-sm-6 col-12 col-lg-3"
               >
+                {/* <ProjectCard image={project.image}/> */}
                 <ProjectSectionCard
                   platform={project.platforms}
                   title={project.title}

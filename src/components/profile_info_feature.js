@@ -4,16 +4,16 @@ import { info } from "../utils/info_utils";
 export const ProjectInfoFeature = () => {
   const Styles = {
     infoCount:{
-      fontSize:"13px",
-      fontWeight:"700"
-    },
-    infoTag:{
-
+      fontSize:".82rem",
+      fontWeight:"700",
+      color:"#527660"
     },
     infoTitle:{
-      fontSize:"9px",
+      fontSize:".54rem",
+      marginTop:"5px",
       color: DESCRIPTION_COLOR,
-      wordSpacing:"2px"
+      letterSpacing:".2px",
+      fontFamily:"sans-serif"
     }
   }
   return (

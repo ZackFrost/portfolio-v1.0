@@ -1,0 +1,48 @@
+.projects .project-grid figure {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.image.is-3by2 {
+  padding-top: 66.6666%;
+}
+.image {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.projects .project-grid figure img.project-thumb {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+
+.projects .project-grid figure figcaption {
+    padding: 0rem 2rem;
+}
+.projects .project-grid figure figcaption {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 0rem 3rem;
+    color: #fff;
+    z-index: 1;
+}
+.projects .project-grid .overlay, .projects .project-grid figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: .45s ease-in-out;
+    transition: .45s ease-in-out;
+}

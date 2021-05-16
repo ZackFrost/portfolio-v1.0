@@ -6,6 +6,7 @@ import {
   LIGHT_GREY_COLOR,
   DARk_GREY_COLOR,
   LIGHT_BACKGROUND_COLOR,
+  BACKGROUND_COLOR,
 } from "../utils/color_utils";
 import { MaterialButton } from "../components/material_button";
 import { NeonButton } from "../components/neon_button";
@@ -13,7 +14,7 @@ import { NeonButton } from "../components/neon_button";
 const Footer = () => {
   const Styles = {
     footerContainer: {
-      backgroundColor: LIGHT_BACKGROUND_COLOR,
+      backgroundColor: "#fff",
     },
     footerInfo: {
       textAlign: "center",
@@ -64,9 +65,11 @@ const Footer = () => {
               <p
                 className="col-lg-5"
                 style={{
+                  color:"#527660",
                   fontWeight: "400",
                   textAlign: "center",
                   fontSize: "18px",
+                  letterSpacing:".3px",
                   paddingTop: "10px",
                 }}
               >
@@ -93,10 +96,10 @@ const Footer = () => {
                 return (
                   <li
                     className="col social-media-icon"
-                    style={{ marginRight: "1.0rem" }}
+                    style={{ marginRight: "1.0rem", }}
                     key={index}
                   >
-                    <img src={icons.path} height="16" width="16" />
+                    <img src={icons.path} height="16" width="16"  style={{marginLeft:"-4px" }}/>
                   </li>
                 );
               })}

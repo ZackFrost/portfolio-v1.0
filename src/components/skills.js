@@ -1,9 +1,8 @@
 import React from "react";
 import {
-  BACKGROUND_COLOR,
   TITLE_COLOR,
-  SECTION_TITLE_COLOR,
   LIGHT_BACKGROUND_COLOR,
+  SECTION_TITLE_COLOR,
 } from "../utils/color_utils";
 import { skills } from "../utils/technology_utils";
 import IconTitleWidget from "./icon_title_widget";
@@ -12,21 +11,23 @@ const Skills = () => {
   
   const styles = {
     skillSection: {
-      padding: "130px 0px",
-      backgroundColor:LIGHT_BACKGROUND_COLOR
+      padding: "70px 0px",
+      backgroundColor: LIGHT_BACKGROUND_COLOR
     },
     sectionTitle : {
       fontWeight: 700,
-      fontSize: "48px",
-      paddingBottom: "50px",
+      fontSize: "43px",
+      paddingBottom: "58px",
       textAlign: "center",
-      color: SECTION_TITLE_COLOR,
+      color:"#008b74"
     },
     sectionTitle1 :{
-      color: "#000",
-      fontSize: "23px",
+      fontWeight:"600",
+      fontSize: "1.28rem",
+      letterSpacing:".7px",
       marginBottom: "45px",
-      textAlign:"center"
+      textAlign:"center",
+      color:"#527660"
     }
   }
 
@@ -48,7 +49,7 @@ const Skills = () => {
               >
                 {skill.category}
               </section>
-              <section id="skill-items" className="row" style={{ justifyContent:"center"}}>
+              <section id="skill-items" className="row" style={{ justifyContent:"center", marginTop:"50px"}}>
                 {skill.platforms.map((platform, index) => (
                   <div key={index} className="col-6 col-md-4 col-lg-3">
                     <IconTitleWidget

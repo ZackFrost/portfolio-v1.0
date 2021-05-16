@@ -22,7 +22,8 @@ export class MaterialButton extends React.Component{
             },
             btnText:{
                 color: props.textColor,
-                fontSize: props.fontSize ?? "12px",
+                fontSize: props.fontSize ?? ".72rem",
+                wordSpacing: "2px",
                 fontWeight: "700",
                 lineHeight: props.lineHeight ?? "50px",
                 textAlign: "center",
