@@ -26,7 +26,7 @@ export const Testimonials = () => {
                   </p>
                 </div>
                 <div className="author">
-                  <img className="rounded-circle" src="https://unsplash.it/30/30" />
+                  {/* <img className="rounded-circle" src="https://unsplash.it/30/30" /> */}
                   <h5 className="name">{data.name}</h5>
                   <p className="title" style={{color: "#fff"}}>{data.designation}</p>
                 </div>
