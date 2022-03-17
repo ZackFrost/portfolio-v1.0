@@ -14,7 +14,7 @@ const Body = () => {
       
       <GetInTouch />
       <Projects />
-      <Testimonials/>
+//       <Testimonials/>
       
       
     </div>
