@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/IanPaul/static/css/main.3768668f.chunk.css",
-    "main.js": "/IanPaul/static/js/main.185324bc.chunk.js",
-    "main.js.map": "/IanPaul/static/js/main.185324bc.chunk.js.map",
+    "main.css": "/IanPaul/static/css/main.913717c5.chunk.css",
+    "main.js": "/IanPaul/static/js/main.46cd0838.chunk.js",
+    "main.js.map": "/IanPaul/static/js/main.46cd0838.chunk.js.map",
     "runtime-main.js": "/IanPaul/static/js/runtime-main.db62ccd3.js",
     "runtime-main.js.map": "/IanPaul/static/js/runtime-main.db62ccd3.js.map",
     "static/js/2.650df7af.chunk.js": "/IanPaul/static/js/2.650df7af.chunk.js",
     "static/js/2.650df7af.chunk.js.map": "/IanPaul/static/js/2.650df7af.chunk.js.map",
     "index.html": "/IanPaul/index.html",
-    "static/css/main.3768668f.chunk.css.map": "/IanPaul/static/css/main.3768668f.chunk.css.map",
+    "static/css/main.913717c5.chunk.css.map": "/IanPaul/static/css/main.913717c5.chunk.css.map",
     "static/js/2.650df7af.chunk.js.LICENSE.txt": "/IanPaul/static/js/2.650df7af.chunk.js.LICENSE.txt",
     "static/media/adobeps.d9ddfe4c.png": "/IanPaul/static/media/adobeps.d9ddfe4c.png",
     "static/media/adobexd.2c8fee73.png": "/IanPaul/static/media/adobexd.2c8fee73.png",
@@ -32,12 +32,12 @@
     "static/media/inspire1.200a94b1.jpg": "/IanPaul/static/media/inspire1.200a94b1.jpg",
     "static/media/instagram.02967a62.svg": "/IanPaul/static/media/instagram.02967a62.svg",
     "static/media/linkedin.5c83b128.svg": "/IanPaul/static/media/linkedin.5c83b128.svg",
-    "static/media/mobile.b9f98df3.svg": "/IanPaul/static/media/mobile.b9f98df3.svg",
+    "static/media/mobile.917eab8a.svg": "/IanPaul/static/media/mobile.917eab8a.svg",
     "static/media/mongodb.1aca075d.svg": "/IanPaul/static/media/mongodb.1aca075d.svg",
     "static/media/nodejs.527d385f.png": "/IanPaul/static/media/nodejs.527d385f.png",
     "static/media/react.fbe37ab1.png": "/IanPaul/static/media/react.fbe37ab1.png",
     "static/media/redux.b3b939c6.png": "/IanPaul/static/media/redux.b3b939c6.png",
-    "static/media/selenium.a00407a2.svg": "/IanPaul/static/media/selenium.a00407a2.svg",
+    "static/media/selenium.817c20a7.svg": "/IanPaul/static/media/selenium.817c20a7.svg",
     "static/media/sribhulokhatravels.272d1540.jpg": "/IanPaul/static/media/sribhulokhatravels.272d1540.jpg",
     "static/media/uiux.8c3f6961.svg": "/IanPaul/static/media/uiux.8c3f6961.svg",
     "static/media/web.86c45413.svg": "/IanPaul/static/media/web.86c45413.svg",
@@ -46,7 +46,7 @@
   "entrypoints": [
     "static/js/runtime-main.db62ccd3.js",
     "static/js/2.650df7af.chunk.js",
-    "static/css/main.3768668f.chunk.css",
-    "static/js/main.185324bc.chunk.js"
+    "static/css/main.913717c5.chunk.css",
+    "static/js/main.46cd0838.chunk.js"
   ]
 }
